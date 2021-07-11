@@ -1,0 +1,30 @@
+body {
+    background-size: cover;
+}
+
+.header {
+    height:50px;
+    width:500px;
+    border-radius:10px;
+    animation-name:example;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow:5px 5px 100px yellow;
+    }
+    to  {
+        box-shadow:5px 5px 100px orange;
+    }
+}
+
+
+a {
+    background-color:white;
+    width:550px;
+    border-radius:15%;
+    color:black;
+    font-size:29px;
+}
